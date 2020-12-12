@@ -14,7 +14,7 @@ log="/home/pi/AndroidTV_Control/logfile.log"
 #
 # IP address and port for devices
 #
-tv_ip="192.168.6.32"        # IP address of the TV (device id 1)
+tv_ip="192.168.3.32"        # IP address of the TV (device id 1)
 tv_mac="EC:5C:68:D5:79:41"  # MAC address of the TV (required to wake-on-lan"
 fire_tv_ip="192.168.6.174"  # IP address of the Fire TV (device id 2)
 port="5555"                 # Port for ADB service
