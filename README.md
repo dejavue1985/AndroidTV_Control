@@ -1,7 +1,9 @@
 # AndroidTV_Control
 
 +++++++++++++++++++
+
 Changes:  Thanks to Markus für sharing this Script. I added same lines to start Diney+ and Amazon Prime Video.
+
 +++++++++++++++++++
 
 
