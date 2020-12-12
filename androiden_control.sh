@@ -7,7 +7,7 @@
 
 #
 log_sw="no"   # no stdout
-log="/home/pi/AndoidTV_Control/logfile.log"
+log="/home/pi/AndroidTV_Control/logfile.log"
 #log="/dev/stdout"
 #
 
