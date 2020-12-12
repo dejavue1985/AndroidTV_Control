@@ -321,7 +321,7 @@ case "$cmd" in
 		adb -s $uri shell "am start -n com.netflix.ninja/com.netflix.ninja.MainActivity";;
 	"primevideo")
 		dev_on
-		adb -s $uri shell "am start -n com.amazon.avod/com.amazon.avod.MainActivity";;
+		adb -s $uri shell "am start -n com.amazon.amazonvideo.livingroom/com.amazon.amazonvideo.livingroom.MainActivity";;
 	"disney")
 		dev_on
 		adb -s $uri shell "am start -n com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity";;
