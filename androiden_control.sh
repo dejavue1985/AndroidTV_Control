@@ -7,7 +7,7 @@
 
 #
 log_sw="no"   # no stdout
-log="/usr/share/openhab2/log/tv_control.log"
+log="/home/pi/AndoidenTV_control/logfile.log"
 #log="/dev/stdout"
 #
 
