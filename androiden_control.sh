@@ -324,7 +324,7 @@ case "$cmd" in
 		adb -s $uri shell "am start -n com.amazon.avod/com.amazon.avod.MainActivity";;
 	"disney")
 		dev_on
-		adb -s $uri shell "am start -n com.disney.disneyplus/disney.disneyplus.MainActivity";;
+		adb -s $uri shell "am start -n com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity";;
 	"tvguide")
 		dev_on
 		adb -s $uri shell "am start -n org.droidtv.epg/org.droidtv.epg.bcepg.epgui.NonZiggo";;
