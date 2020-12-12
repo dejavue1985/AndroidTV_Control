@@ -14,8 +14,8 @@ log="/usr/share/openhab2/log/tv_control.log"
 #
 # IP address and port for devices
 #
-tv_ip="192.168.6.20"        # IP address of the TV (device id 1)
-tv_mac="1C:5A:6B:A9:CC:4D"  # MAC address of the TV (required to wake-on-lan"
+tv_ip="192.168.6.32"        # IP address of the TV (device id 1)
+tv_mac="EC:5C:68:D5:79:41"  # MAC address of the TV (required to wake-on-lan"
 fire_tv_ip="192.168.6.174"  # IP address of the Fire TV (device id 2)
 port="5555"                 # Port for ADB service
 use_cec=1                   # 1=use cec-client to control TV power on/off and HDMI channel select
@@ -319,6 +319,12 @@ case "$cmd" in
 	"netflix")
 		dev_on
 		adb -s $uri shell "am start -n com.netflix.ninja/com.netflix.ninja.MainActivity";;
+	"primevideo")
+		dev_on
+		adb -s $uri shell "am start -n com.amazon.avod/com.amazon.avod.MainActivity";;
+	"disney")
+		dev_on
+		adb -s $uri shell "am start -n com.disney.disneyplus/disney.disneyplus";;
 	"tvguide")
 		dev_on
 		adb -s $uri shell "am start -n org.droidtv.epg/org.droidtv.epg.bcepg.epgui.NonZiggo";;
