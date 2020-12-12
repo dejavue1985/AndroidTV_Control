@@ -1,8 +1,7 @@
 # AndroidTV_Control
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  Thanks to Markus für sharing this Script. I added same lines to start Diney+ and Amazon Prime Video.
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Changes:  Thanks to Markus für sharing this Script. I added same lines to start Diney+ and Amazon Prime Video.
+
 A bash script providing a bunch of functions to control your TV based on ADB.
 
 This script provides a rich set of functions allowing to control your Android TV (and other Android based devices like the amazon Fire TV stick - may also work with other Android based device types) .
