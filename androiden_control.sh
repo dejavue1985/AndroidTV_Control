@@ -325,13 +325,16 @@ case "$cmd" in
 	"disney")
 		dev_on
 		adb -s $uri shell "am start -n com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity";;
+	"youtube")
+		dev_on
+		adb -s $uri shell "am start -n com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity";;
 	"tvguide")
 		dev_on
 		adb -s $uri shell "am start -n org.droidtv.epg/org.droidtv.epg.bcepg.epgui.NonZiggo";;
 	"videotext")
 		dev_on
 		adb -s $uri shell "am start -n org.droidtv.teletext/org.droidtv.teletext.teletextfullscreen.TeletextFullscreen";;
-
+		
 
 	"power")      sendkey 26;;		# Power Button
 	"sleep")      sendkey 223;;		# Sleep Button
